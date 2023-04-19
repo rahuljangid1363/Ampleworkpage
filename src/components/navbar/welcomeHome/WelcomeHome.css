@@ -1,0 +1,6 @@
+.NavbarAndWelcomePage{
+    background-image: url('../../../assets/WelcomeBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

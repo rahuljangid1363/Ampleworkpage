@@ -1,0 +1,11 @@
+.ZoomCard{
+    transition: transform 0.8s;
+}
+
+.ZoomCard:hover {
+    transform: scale(1.12);
+    border: none;
+    background-color: rgb(3,45,226);
+    color: white;
+  }
+  

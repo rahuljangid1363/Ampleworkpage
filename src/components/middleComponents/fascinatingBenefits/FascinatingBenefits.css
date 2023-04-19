@@ -1,0 +1,8 @@
+.RactangleCard:hover{
+background-color: rgb(3 ,45 ,226);
+color: white;
+}
+.RactangleCardSubComponent{
+    background-color: rgb(233 ,241 ,255);
+    color: rgb(3 ,45 ,226);
+}

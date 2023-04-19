@@ -1,0 +1,39 @@
+.RajendraPhoto{
+    background-image: url('./assets/Rajendra.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 16rem;
+    border-radius: 35px 0px 35px 0px;
+    width: 13rem;
+}   
+
+.JitendraPhoto{
+    background-image: url('./assets/Jitendra.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 16rem;
+    border-radius: 35px 0px 35px 0px;
+    width: 13rem;
+}
+
+.NirmalPhoto{
+    background-image: url('./assets/Nirmal.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 16rem;
+    border-radius: 35px 0px 35px 0px;
+    width: 13rem;
+}
+
+.RahulPhoto{
+    background-image: url('./assets/Rahul.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 16rem;
+    border-radius: 35px 0px 35px 0px;
+    width: 13rem;
+}

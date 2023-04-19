@@ -1,0 +1,16 @@
+.PortfolioBanner {
+    background-image: url('./asset/sweatCoin_bg.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 35rem;
+    position: relative;
+}
+.PortfolioImage{
+    background-image: url('./asset/sweat_coin-screen.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30rem;
+
+}
