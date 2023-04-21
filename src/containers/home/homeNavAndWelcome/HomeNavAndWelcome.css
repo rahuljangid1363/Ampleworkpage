@@ -1,0 +1,21 @@
+.HomeNavAndWelcome{
+    background-image: url('../../../assets/home.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: #00021e
+}
+.Button{
+    border: 2px solid rgb(245, 164, 3);
+    background-color: rgb(6 19 100);
+    color: rgb(245, 164, 3);
+}
+.Button:hover{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    color: rgb(6 19 100);
+}
+
+li:hover{
+color: rgb(245, 164, 3);
+}

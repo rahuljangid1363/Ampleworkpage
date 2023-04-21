@@ -10,7 +10,7 @@ const ApplicationService = () => {
           Our Advanced Application Support Service - Elevate Your Application's
           Performance
         </h3>
-        <p className="text-center px-5 ">
+        <p className="text-center  px-5 pt-2 ">
           Complex application which are configured with the latest APIs require
           the advanced solutios to keep the working machanism of the
           applications in a perfect shape. At Amplework.

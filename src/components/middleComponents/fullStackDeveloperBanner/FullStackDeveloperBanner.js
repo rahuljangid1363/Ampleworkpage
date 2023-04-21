@@ -4,11 +4,11 @@ import './FullStackDeveloperBanner.css'
 import { ImArrowUpRight2 } from "react-icons/im";
 const FullStackDeveloperBanner = () => {
     return (
-        <div className='container-fluid py-5'>
+        <div className='container-fluid pt-5'  style={{backgroundColor:'rgb(243,243,245)'}}>
             <div className="FullStackDeveloperBanner container py-4 text-light rounded">
                 <div className="row pt-3">
                     <div className="col-md-8">
-                        <h5>Dedicated Full-stack developer?</h5>
+                        <h5 className='fw-bold'>Dedicated Full-stack developer?</h5>
                         <p>Let's Discuss Your Project how we will transform your idea into an amazing digital product?</p>
                     </div>
                     <div className="col-md-4">

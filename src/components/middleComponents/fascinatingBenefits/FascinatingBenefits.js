@@ -36,7 +36,7 @@ const RactangleCard = [
 ]
 const FascinatingBenefits = () => {
     return (
-        <div className='container-fluid py-5 ' style={{ backgroundColor: 'rgb(245,247,251)' }}>
+        <div className='container-fluid py-4' style={{ backgroundColor: 'rgb(245,247,251)' }}>
             <div className="container">
                 <div className="row text-center justify-content-center">
                     <div className=''>
@@ -59,7 +59,7 @@ const FascinatingBenefits = () => {
                                     <div className='d-flex'>
                                         <div>
                                             <p className='fw-semibold'>{variant.heading}</p>
-                                            <p>{variant.text}</p>
+                                            <p style={{fontSize:'0.9rem'}} className='px-2'>{variant.text}</p>
                                         </div>
                                         <div className='RactangleCardSubComponent px-3 py-2 rounded align-self-center'>
                                            <h3> {variant.logo}</h3>

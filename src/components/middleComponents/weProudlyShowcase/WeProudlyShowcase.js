@@ -19,13 +19,13 @@ const WeProudlyShowcase = () => {
                                 </div>
                             </div>
                             <div className="col-md-7 text-center">
-                                <h5>Amplework is a great team to work with, highly recommended.</h5>
+                                <h5 className='text-dark'>Amplework is a great team to work with, highly recommended.</h5>
                                 <p>Flawless Plank was an AI based fitness application and we are glad we get a
                                     chance to work on this project with Amplework. They have excellent skills in building
                                     mobile apps and willing to work around issues to solve them .. Highly Recommended!</p>
-                                <h5>MANU NAMBOODIRI</h5>
-                                <p className='text-secondary'>Founder, Flawless Plank</p>
-                                <h2 className='text-primary'><BsLinkedin /></h2>
+                                <h5 className='text-dark fw-bold'>MANU NAMBOODIRI</h5>
+                                <p className='text-secondary' style={{lineHeight:'15px'}}>Founder, Flawless Plank</p>
+                                <h2 className='text-primary' style={{lineHeight:'15px'}}><BsLinkedin /></h2>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -38,13 +38,13 @@ const WeProudlyShowcase = () => {
                                 </div>
                             </div>
                             <div className="col-md-7 text-center">
-                                <h5>Amplework is a great team to work with, highly recommended.</h5>
+                                <h5 className='text-dark'>Amplework is a great team to work with, highly recommended.</h5>
                                 <p>Flawless Plank was an AI based fitness application and we are glad we get a
                                     chance to work on this project with Amplework. They have excellent skills in building
                                     mobile apps and willing to work around issues to solve them .. Highly Recommended!</p>
-                                <h5>MANU NAMBOODIRI</h5>
-                                <p className='text-secondary'>Founder, Flawless Plank</p>
-                                <h2 className='text-primary'><BsLinkedin /></h2>
+                                <h5 className='text-dark fw-bold'>Ken Murai</h5>
+                                <p className='text-secondary' style={{lineHeight:'15px'}}>Founder & CEO Facil GO</p>
+                                <h2 className='text-primary' style={{lineHeight:'15px'}}><BsLinkedin /></h2>
                             </div>
                         </div>
                     </Carousel.Item>
@@ -57,13 +57,13 @@ const WeProudlyShowcase = () => {
                                 </div>
                             </div>
                             <div className="col-md-7 text-center">
-                                <h5>Amplework is a great team to work with, highly recommended.</h5>
+                                <h5 className='text-dark'>Amplework is a great team to work with, highly recommended.</h5>
                                 <p>Flawless Plank was an AI based fitness application and we are glad we get a
                                     chance to work on this project with Amplework. They have excellent skills in building
                                     mobile apps and willing to work around issues to solve them .. Highly Recommended!</p>
-                                <h5>MANU NAMBOODIRI</h5>
-                                <p className='text-secondary'>Founder, Flawless Plank</p>
-                                <h2 className='text-primary'><BsLinkedin /></h2>
+                                <h5 className='text-dark fw-bold'>Lartz Plazgo</h5>
+                                <p className='text-secondary' style={{lineHeight:'15px'}}>Founder, Lartz Softwares</p>
+                                <h2 className='text-primary' style={{lineHeight:'15px'}}><BsLinkedin /></h2>
                             </div>
                         </div>
                     </Carousel.Item>

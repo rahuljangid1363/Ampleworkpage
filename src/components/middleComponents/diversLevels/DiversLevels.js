@@ -2,7 +2,7 @@ import React from 'react'
 import "./DiversLevels.css"
 const DiversLevels = () => {
     return (
-        <div className='container-fluid py-5'>
+        <div className='diversLevels container-fluid pt-5 '>
             <div className="container">
                 <div className="row">
                     <div className="col-md-6 align-self-center">

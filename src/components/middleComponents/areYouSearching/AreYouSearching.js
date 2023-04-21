@@ -3,7 +3,7 @@ import { BsCheckCircle } from "react-icons/bs";
 import './AreYouSearching.css'
 const AreYouSearching = () => {
     return (
-        <div className='container-fluid'>
+        <div className='container-fluid py-4' style={{backgroundColor:'rgb( 248 249 250)'}}>
             <div className="container">
                 <div className="row justify-content-center text-center">
                     <div className='w-75'>

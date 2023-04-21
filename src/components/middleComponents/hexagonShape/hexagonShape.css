@@ -1,8 +1,0 @@
-.hexagonShape{
-    position: relative;
-    width: 60px;
-    height: 100px;
-    background-color: purple;
-    clip-path: polygon(19% 26%, 47% 8%, 76% 25%, 76% 63%, 48% 78%, 19% 61%);
-
-}

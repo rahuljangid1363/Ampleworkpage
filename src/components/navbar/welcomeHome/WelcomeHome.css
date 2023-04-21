@@ -1,6 +1,7 @@
 .NavbarAndWelcomePage{
-    background-image: url('../../../assets/WelcomeBanner.jpg');
+    /* background-image: url('../../../assets/defaultLayout.jpg'); */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-color: rgb(31, 31, 97);
 }

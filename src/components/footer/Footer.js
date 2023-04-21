@@ -1,7 +1,6 @@
 import React from "react";
 import {
   FaApple,
-  Fa500Px,
   FaAmazon,
   FaAmazonPay,
   FaCanadianMapleLeaf,
@@ -20,19 +19,16 @@ const Footer = () => {
   return (
     <>
       <div
-        className="container-fluid"
+        className="bgs container-fluid"
         style={{ backgroundColor: " rgb(21, 16, 59)" }}
       >
         <div className="container pt-5">
           <div className="row " style={{ border: "2px solid blue" }}>
-            <div className="blueCard col">
+            <div className="blueCard col-lg-6">
               <FooterCard
                 text={{
                   title: "Do you want to hire resources for your project?",
                   desc: "We have web and app development team to serve modern tech-savy client by building on the chanllenges on their be spoken requirment.",
-                  // smallImage1: FaApple(),
-                  // smallImage2: fullTime,
-                  // smallImage3: hourly,
                   smallText1: "Part Time",
                   smallText2: "Full-Time",
                   smallText3: "Hourly",
@@ -44,14 +40,11 @@ const Footer = () => {
                 icon3={FaAmazonPay()}
               />
             </div>
-            <div className="blackCard col ">
+            <div className="blackCard col-lg-6 ">
               <FooterCard
                 text={{
                   title: "Are you startup and want to go live asap?",
                   desc: "We have been working with startups since our inception and help them scale as they grow. Our experience can help you refine your business ideas and get into the market asap.",
-                  // smallImage1: Fa500Px(),
-                  // smallImage2: Adaptability,
-                  // smallImage3: Scalability,
                   smallText1: "Accessibility",
                   smallText2: "Adaptability",
                   smallText3: "Scalability",

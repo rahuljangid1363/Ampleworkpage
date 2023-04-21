@@ -1,21 +1,17 @@
 import React from "react";
-import "./hexagonShape.css"
-const HexagonShape = () => {
+import "./YourDedicatedSupporter.css"
+import { Image } from "react-bootstrap";
+import img from './asset/icons.png'
+const YourDedicatedSupporter = () => {
   return (
     <div className="container-fluid py-5">
       <div className="container">
         <div className="row">
-          <div className="col-md-6">
-            <div className="row d-flex">
-              <div className="col hexagonShape bg-danger">
-                skkfhshfshfsfh
-              </div>
-              <div className="col hexagonShape bg-warning">applicatiin</div>
+          <div className="col-md-5 offset-md-1">
+            {/* <div className="Image"> */}
+             <Image src={img} className="img-fluid" width='90%'/>
             </div>
-            <div className="row d-flex">
-              <div className="col hexagonShape bg-warning">applicatiin</div>
-            </div>
-          </div>
+          {/* </div> */}
           <div className="col-md-6">
             <span className="text-primary fw-bold" >Amplework software</span>
             <h4>Your Dedicated Supporter for App Maintenance Services</h4>
@@ -41,4 +37,4 @@ const HexagonShape = () => {
   );
 };
 
-export default HexagonShape;
+export default YourDedicatedSupporter;

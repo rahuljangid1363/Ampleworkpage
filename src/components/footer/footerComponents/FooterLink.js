@@ -11,12 +11,12 @@ import { dmca_badge } from ".";
 const FooterLink = () => {
   return (
     <div>
-      <div className="container-fluid bg-dark">
-        <div className="container">
+      <div className="links container-fluid pb-5">
+        {/* <div className="container"> */}
           <div className="row pt-4">
             <div className="col-lg-3 col-md-6">
-              <ul className="yellowListHover">
-                <h5 className="text-light fw-semibold">
+              <ul className="yellowListHover"  style={{fontSize:'13px'}}>
+                <h5 className="fw-semibold" >
                   Development Services{" "}
                 </h5>
                 <li>Product Design</li>
@@ -85,7 +85,7 @@ const FooterLink = () => {
                 <li>Inspection App Development</li>
               </ul>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       </div>
       {/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */}
@@ -94,13 +94,13 @@ const FooterLink = () => {
           <div className="row pt-3 ">
             <div className="col-lg-7">
               <ul className="d-flex text-light flex-wrap justify-content-center  ">
-                <li className="px-2">About Us</li>
-                <li className="px-2">Services</li>
-                <li className="px-2">Career</li>
-                <li className="px-2">Contact Us</li>
-                <li className="px-2">Blog</li>
-                <li className="px-2">Privacy Policy</li>
-                <li className="px-2">Legal</li>
+                <div className="px-2">About Us</div>
+                <div className="px-2">Services</div>
+                <div className="px-2">Career</div>
+                <div className="px-2">Contact Us</div>
+                <div className="px-2">Blog</div>
+                <div className="px-2">Privacy Policy</div>
+                <div className="px-2">Legal</div>
               </ul>
             </div>
             <div className="col-lg-2 d-flex pb-2 justify-content-center offset-lg-3 ">
@@ -125,13 +125,13 @@ const FooterLink = () => {
       {/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */}
       <div
         className="container-fluid"
-        style={{ backgroundColor: "rgb(255, 176, 4)" }}
+        style={{ backgroundColor: "#ce8400" }}
       >
         <div className="container">
           <div className="row py-2 ">
             <div
               className="col-lg-6 py-2 d-flex justify-content-around flex-wrap text-light fw-semibold align-items-center"
-              style={{ fontSize: "1.05rem" }}
+              style={{ fontSize: "0.9rem",letterSpacing:'0.05rem' }}
             >
               <div>
                 Amplework <AiOutlineCopyrightCircle className="fs-5" /> 2023 All Right Reserved </div>
@@ -141,18 +141,17 @@ const FooterLink = () => {
             </div>
             <div
               className="col-lg-6 d-flex flex-wrap py-2 justify-content-center text-light fw-semibold align-items-center"
-              style={{ fontSize: "0.87rem" }}
+              style={{ fontSize: "0.76rem",letterSpacing:'1px' }}
             >
-              <div className="border-2  border-end px-1">USA</div>
-              <div className="border-2  border-end px-1">UK</div>
-              <div className="border-2  border-end px-1">Canada</div>
-              <div className="border-2  border-end px-1">Canada</div>
-              <div className="border-2  border-end px-1">Austrilia</div>
-              <div className="border-2  border-end px-1">Norway</div>
-              <div className="border-2  border-end px-1">Germony</div>
-              <div className="border-2  border-end px-1">France</div>
-              <div className="border-2  border-end px-1">Sweden</div>
-              <div className="px-2">Poland</div>
+              <div>USA <span className="px-1">|</span></div>
+              <div>UK <span className="px-1">|</span></div>
+              <div>Canada <span className="px-1">|</span></div>
+              <div>Austrilia <span className="px-1">|</span></div>
+              <div>Norway  <span className="px-1">|</span></div>
+              <div>Germony <span className="px-1">|</span></div>
+              <div>France <span className="px-1">|</span></div>
+              <div>Sweden <span className="px-1">|</span></div>
+              <div>Poland</div>
             </div>
           </div>
         </div>

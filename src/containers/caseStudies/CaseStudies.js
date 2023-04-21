@@ -1,10 +1,11 @@
 import React from 'react'
 import { NavbarAndWelcomePage } from '../../components'
 
-const CaseStudies = () => {
+const CaseStudies = (props) => {
+  const{bgImage}=props
   return (
     <div>
-<NavbarAndWelcomePage/>
+<NavbarAndWelcomePage bgImage={bgImage}/>
     </div>
   )
 }

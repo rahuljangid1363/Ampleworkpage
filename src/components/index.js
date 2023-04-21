@@ -4,9 +4,9 @@ import WelcomeHome from "./navbar/welcomeHome/WelcomeHome";
 import NavbarComp from "./navbar/navbarComp/NavbarComp";
 import NavbarAndWelcomePage from "./navbar/NavbarAndWelcomePage";
 import { ApplicationService } from "./middleComponents";
-import HexagonShape from "./middleComponents/hexagonShape/HexagonShape";
 import ExperienceUnparalleled from "./middleComponents/experienceUnparalled/ExperienceUnparalleled";
 import ZoomingComponent from "./middleComponents/zoomingCom/ZoomingComponent";
+import YourDedicatedSupporter from "./middleComponents/yourDedicatedSupporter/YourDedicatedSupporter";
 import TargetActivities from "./middleComponents/targetActivities/TargetActivities";
 import TypesOfAppMaintain from "./middleComponents/typesOfAppMaintain/TypesOfAppMaintain";
 import LetsGetYourApp from "./middleComponents/letsGetYourApp/LetsGetYourApp";
@@ -28,7 +28,7 @@ export {
   Footer,
   NavbarAndWelcomePage,
   ApplicationService,
-  HexagonShape,
+  YourDedicatedSupporter,
   ExperienceUnparalleled,
   ZoomingComponent,
   TargetActivities, TypesOfAppMaintain,

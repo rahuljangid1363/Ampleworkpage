@@ -1,7 +1,7 @@
 import React from "react";
 import ActivityCard from "./ActivityCard";
 import { BiAddToQueue, BiAtom, BiBeer, BiCategoryAlt, BiCodeBlock, BiCommand, BiFilm, BiQrScan } from "react-icons/bi";
-
+import './TargetActivities.css'
 const ActivityCardData = [
     {
         icon: BiAddToQueue(),
@@ -58,14 +58,15 @@ const TargetActivities = () => {
         <div className="container-fluid py-4" style={{backgroundColor:'rgb(250,250,250)'}}>
             <div className="container py-3">
                 <div className="row">
-                    <div className="col-md-6 px-4">
+                    <div className="col-md-6 pt-4">
                         <h3>
                             Amplework’s Targeted Activities For Application Maintenance Support Services
                         </h3>
                         <p>
                             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                         </p>
-                        <ul className="fw-semibold">
+
+                        <ul className="ulList fw-semibold">
                             <li>
                                 Amplework offers hire.
                             </li>
@@ -82,7 +83,7 @@ const TargetActivities = () => {
                             {
                                 ActivityCardData.map((data,key) => {
                                     return (<>
-                                        <div className="col d-flex mb-4" key={key}>
+                                        <div className="col d-flex mb-4" key={key} >
                                             <ActivityCard prop={data} />
                                         </div>
                                     </>)

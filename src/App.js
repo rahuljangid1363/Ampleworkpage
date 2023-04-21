@@ -4,7 +4,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import AllRoutes from "./routes/AllRoutes";
 // import { SubCom1 } from "./components";
 import DefaultLayout from "./layout/DefaultLayout";
-
 // const loading = (
 //   <div className="pt-3 text-center">
 //     <div className="sk-spinner sk-spinner-pulse"></div>-

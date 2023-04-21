@@ -10,7 +10,7 @@ import {
   Footer,
   FrequentlyQuestion,
   FullStackDeveloperBanner,
-  HexagonShape,
+  YourDedicatedSupporter,
   InquireAndOwnerCard,
   LetsGetYourApp,
   NavbarAndWelcomePage,
@@ -21,12 +21,13 @@ import {
   WeProudlyShowcase,
   ZoomingComponent,
 } from "../components";
+import defaultLayountBg from '../assets/defaultLayout.jpg'
 import "../components/navbar/welcomeHome/WelcomeHome.css";
 const DefaultLayout = () => {
   return (
-    <div>
-      <NavbarAndWelcomePage />
-      <HexagonShape />
+    <div style={{letterSpacing:'0.02rem'}}>
+      <NavbarAndWelcomePage bgImage={defaultLayountBg} />
+      <YourDedicatedSupporter />
       <ExperienceUnparalleled />
       <ZoomingComponent />  
       <ApplicationService />
@@ -44,7 +45,7 @@ const DefaultLayout = () => {
       <PortfolioBanner/>
       <DigitalizeYourProduct/>
       <InquireAndOwnerCard/>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 };

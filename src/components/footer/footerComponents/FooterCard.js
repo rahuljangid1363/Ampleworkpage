@@ -21,28 +21,28 @@ const FooterCard = (prop) => {
             {text.desc}
           </Card.Text>
           <div className="row d-flex ">
-            <div className="col-md-3 col-sm-5 p-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 p-4">
               <div className="ps text-center fs-2 py-2 text-light rounded ">{icon1}</div>
-              <p className="fw-semibold pt-3 " style={{ color: textColor,fontSize:'0.97rem' }}>
+              <p className=" pt-3 text-center" style={{ color: textColor,fontSize:'0.8rem' }}>
                 {text.smallText1}
               </p>
             </div>
-            <div className="col-md-3 col-sm-5 p-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 p-4">
               <div className="ps text-center fs-2 py-2 text-light  rounded ">
                 {icon2} 
               </div>
-              <p className=" fw-semibold pt-3" style={{ color: textColor ,fontSize:'0.97rem'}}>
+              <p className=" pt-3 text-center" style={{ color: textColor ,fontSize:'0.8rem'}}>
                 {text.smallText2}
               </p>
             </div>
 
-            <div className="col-md-3 col-sm-5 p-4">
+            <div className="col-lg-3 col-md-4 col-sm-6 p-4">
               <div className="ps text-center fs-2 py-2 text-light  rounded ">
                 {icon3} 
               </div>
               <p
-                className="fw-semibold pt-3 text-center"
-                style={{ color: textColor,fontSize:'0.97rem' }}
+                className=" pt-3 text-center"
+                style={{ color: textColor,fontSize:'0.8rem' }}
               >
                 {text.smallText3}
               </p>

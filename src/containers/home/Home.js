@@ -1,15 +1,22 @@
 import React from "react";
 import { ApplicationService, NavbarComp, WelcomeHome } from "../../components";
+import HomeNavAndWelcome from "./homeNavAndWelcome/HomeNavAndWelcome";
 
 
-const Home = () => {
-  return (
-    <div className="container-fluid bg-warning">
-      <NavbarComp/>
+const Home = (props) => {
+  const { bgImage } = props
+  return (<>
+    {/* <NavbarAndWelcomePage bgImage={bgImage} /> */}
+
+    {/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  HOME PAGE  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */}
+    <HomeNavAndWelcome />
+    <div className="container-fluid bg-secondary">
+      {/* <NavbarComp /> */}
       <h1>Home</h1>
-      <ApplicationService/>
-      <WelcomeHome/>
+      <ApplicationService />
+      <WelcomeHome />
     </div>
+  </>
   );
 };
 

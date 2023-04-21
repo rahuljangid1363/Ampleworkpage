@@ -29,15 +29,16 @@ const BusinessOperations = () => {
                             heading: '100%',
                             text: 'With Quality Optimization'
                         },
-                    ].map((variant) => (
+                    ].map((variant, key) => (
                         <Card
-                            style={{ width: '15rem',backgroundColor:'rgb(255,255,255)' }}
-                            className="m-2 border-0"
+                            key={key}
+                            style={{ width: '15rem', backgroundColor: 'rgb(255,255,255)' }}
+                            className="m-2 border-0 rounded-0"
                         >
                             <Card.Body>
                                 <Card.Text className='text-center'>
-                                    <h5 className='fw-bold text-primary'>{variant.heading}</h5>
-                                    <p style={{fontSize:'0.9rem'}}>{variant.text}</p>
+                                    <h5 className='fw-bold' style={{ color: 'blue' }}>{variant.heading}</h5>
+                                    <p style={{ fontSize: '0.85rem', fontWeight: '500' }}>{variant.text}</p>
                                 </Card.Text>
                             </Card.Body>
                         </Card>

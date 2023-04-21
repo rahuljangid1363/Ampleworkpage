@@ -1,0 +1,6 @@
+.ulList{
+    color: rgb(0, 0, 0);
+}
+.ulList li:hover{
+    color: black;
+}

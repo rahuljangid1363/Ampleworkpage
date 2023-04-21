@@ -1,60 +1,57 @@
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
 import Button from "react-bootstrap/Button";
-import logoAmplework from "../../../assets/logo/amplworkLogo.png";
-import { NavLink, Outlet } from "react-router-dom";
-function NavbarComp(props) {
-  let Mystyle=({ isActive }) => ({
-    fontWeight:'bold',
-    color: isActive ? ' rgb(255, 255, 255)' : 'rgb(190, 193, 195)',
-    // background: isActive ? 'rgb(6, 6, 199)' : '#f0f0f0',
-  fontSize : isActive ? "1.07rem" : '0.93rem',
+import { NavLink } from "react-router-dom";
+import logo from '../../../assets/logo/amplworkLogo.png'
+import './NavbarComp.css'
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import { Image } from "react-bootstrap";
 
-    padding:'7px',
-    //  borderRadius:'5px'
+function NavbarComp() {
+  let Mystyle = ({ isActive }) => ({
+    textDecoration: 'none',
+    fontWeight: '600',
+    color: isActive ? ' rgb(255, 255, 255)' : 'rgb(254,254,254)',
+    borderBottom: isActive ? "1px solid white" : '',
+    padding: '7px',
+    hover: {
+      color: 'red'
+  }
   });
-  const{bgColor}=props
+
   return (
-    <div className="container-fluid">
-      <div className="row">
-        <div className="col-4">
-          <Nav>
-            <Nav.Link href="/home">
-              <img src={logoAmplework} width="70%" alt="" />
-            </Nav.Link>
-          </Nav>
-        </div>
-        <div className="col-8">
-          <Navbar collapseOnSelect expand="lg" bg={bgColor} variant="dark">
-            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-            <Navbar.Collapse id="responsive-navbar-nav">
-              <Nav className="m-auto align-items-center fw-semibold">
-                <NavLink to="/who-we-are" style={Mystyle}>Who we are</NavLink>
-                <NavLink  to="/what-we-do" style={Mystyle}>What we do</NavLink>
-                <NavLink to="/our-culture" style={Mystyle}>Our culture</NavLink>
-                <NavLink to="/work-with-us" style={Mystyle}>Work with us</NavLink>
-                <NavLink to="/case-studies" style={Mystyle}>Case studies</NavLink>
-                <NavLink to="/blog" style={Mystyle}>Blog</NavLink>
-                <NavLink to="/contact-us" style={Mystyle}>Contact us</NavLink>
-              </Nav>
-              <Nav>
-                <Nav.Link href="/inquire-now">
-                  <Button
-                    variant="outline-warning"
-                    className="rounded-pill fw-semibold text-uppercase"
-                  >
-                    inquire now
-                  </Button>
-                </Nav.Link>
-              </Nav>
-            </Navbar.Collapse>
-          </Navbar>
-          <Outlet/>
-        </div>
-      </div>
-    </div>
+    <Navbar expand="lg" className="pt-0">
+      {/* <Container> */}
+      <Navbar.Brand href="#home" >
+        <Image src={logo} className="img-fluid" width='230' />
+      </Navbar.Brand>
+      <Navbar.Toggle aria-controls="basic-navbar-nav" />
+      <Navbar.Collapse id="basic-navbar-nav">
+        <Nav className="NavLinks ms-auto ">
+          <NavLink to="/who-we-are" style={Mystyle}><li>Who we are</li></NavLink>
+          <NavLink to="/what-we-do" style={Mystyle}><li>What we do</li></NavLink>
+          <NavLink to="/our-culture" style={Mystyle}><li>Our culture</li></NavLink>
+          <NavLink to="/work-with-us" style={Mystyle}><li>Work with us</li></NavLink>
+          <NavLink to="/case-studies" style={Mystyle}><li>Case studies</li></NavLink>
+          <NavLink to="/blog" style={Mystyle}><li>Blog</li></NavLink>
+          <NavLink to="/contact-us" style={Mystyle}><li>Contact us</li></NavLink>
+
+        </Nav>
+        <Nav>
+          <Nav.Link href="/inquire-now">
+            <Button
+             
+              className="Button rounded-pill fw-bold text-uppercase"
+            >
+              inquire now
+            </Button>
+          </Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+      {/* </Container> */}
+    </Navbar>
   );
 }
 
 export default NavbarComp;
+
 
