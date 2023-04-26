@@ -1,10 +1,12 @@
-import React from "react";
-import { FaRegSun, FaLaptopCode, FaGreaterThanEqual } from "react-icons/fa";
-import ServiceCard from "./ServiceCard";
+import React from 'react'
 import { Button } from "react-bootstrap";
-const ApplicationService = () => {
+import ApplicationCards from './ApplicationCards';
+import imgOne from './asset/one.svg'
+import imgTwo from './asset/two.svg'
+import imgThree from './asset/three.svg'
+const ApplicationAndService = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{ fontFamily: 'Poppins' }}>
       <div className="container">
         <h3 className="text-center px-5 pt-4">
           Our Advanced Application Support Service - Elevate Your Application's
@@ -20,12 +22,13 @@ const ApplicationService = () => {
             className="col-lg-4  py-4"
             style={{ backgroundColor: "rgb(47, 126, 255)" }}
           >
-            <ServiceCard
+
+            <ApplicationCards
               prop={{
                 heading: "Application Re-engineering",
-                logo: FaRegSun(),
+                logo: imgOne,
                 text: `Our developers evaluate existing applications through a series of in-house testing processes in order to evaluate 
-  the functionalities of the applications that need to be re-engineered,`,
+    the functionalities of the applications that need to be re-engineered,`,
                 bgColor: "",
               }}
             />
@@ -34,10 +37,10 @@ const ApplicationService = () => {
             className="col-lg-4 py-4"
             style={{ backgroundColor: "rgb(17, 95, 224)" }}
           >
-            <ServiceCard
+            <ApplicationCards
               prop={{
                 heading: "Application Migration & Intergration",
-                logo: FaLaptopCode(),
+                logo: imgTwo,
                 text: `Our Engineers are profound in supporting you for moving applications from physical or local settings to remote based servers.We also provide application migration as well as integration services.`,
                 bgColor: "",
               }}
@@ -47,10 +50,10 @@ const ApplicationService = () => {
             className="col-lg-4  py-4"
             style={{ backgroundColor: "rgb(4, 80, 206)" }}
           >
-            <ServiceCard
+            <ApplicationCards
               prop={{
                 heading: "Application Support",
-                logo: FaGreaterThanEqual(),
+                logo: imgThree,
                 text: `It includes a range of activities for ensuring proper functioning and optmization of a web or mobile application.We focus towards continuous monitoring and continous improverment of functions.`,
                 bgColor: "",
               }}
@@ -59,12 +62,12 @@ const ApplicationService = () => {
         </div>
         <div className="row justify-content-center my-4 ">
           <div className="col text-center">
-          <Button variant="warning" className="rounded-0 text-light fw-semibold">GET A FREE QUOTE</Button>
+            <Button variant="warning" className="rounded-0 text-light fw-semibold">GET A FREE QUOTE</Button>
           </div>
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default ApplicationService;
+export default ApplicationAndService

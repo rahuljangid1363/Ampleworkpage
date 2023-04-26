@@ -1,7 +1,13 @@
-.NavbarAndWelcomePage{
-    /* background-image: url('../../../assets/defaultLayout.jpg'); */
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-color: rgb(31, 31, 97);
+
+.TopHeading{
+    font-size: 1rem;
+}
+.Schdule{
+    background-color: rgb(245 164 3);
+}
+.WelcomeHome{
+background-image: url('../../../assets/defaultLayout.jpg');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
 }

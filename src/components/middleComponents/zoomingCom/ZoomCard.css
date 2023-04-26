@@ -1,14 +1,50 @@
-
 .Position {
   position: relative;
   top: -6rem;
 }
+
 .Po {
 
   transition: transform 0.8s;
- 
+  height: 13rem;
 }
+
 .Po:hover {
-  transform: scale(1.12);
+/* transform: rotateY('45'); */
+transform:scale(1.27);
   border: none;
+  height: 13rem;
+
 }
+.Heading{
+  font-size: 0.9rem;
+  color: black;
+  font-family:'Poppins';
+  letter-spacing: 0.05rem;
+  font-weight: 800;
+}
+#HideText{
+  display: none;
+  margin-top: -15px;
+  font-size: 0.7rem;
+  font-weight: 600  ;
+  line-height: 14px;
+  color:rgb(95, 95, 95);
+}
+.Po:hover #HideText{
+  display: block;
+}
+.Po:hover #hd{
+  padding-top: 1rem;
+}
+.Display{
+  display: block;
+}
+.Po:hover .image {
+display: none;
+
+}
+
+.Po:hover .Heading{
+  color: blue;
+  }

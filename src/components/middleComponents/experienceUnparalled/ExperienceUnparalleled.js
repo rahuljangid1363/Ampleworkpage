@@ -4,7 +4,7 @@ const ExperienceUnparalleled = () => {
   return (
     <div
       className="container-fluid text-light py-5"
-      style={{ backgroundColor: "rgb(22,45,66)" }}
+      style={{ backgroundColor: "rgb(22,45,66)",fontFamily:'Poppins' }}
     >
       <div className="container pb-4">
         <div className="row pb-5">

@@ -3,21 +3,20 @@ import { Button } from "react-bootstrap";
 import "./WelcomeHome.css"
 const WelcomeHome = () => {
   return (
-    <div className="container-fluid  pb-5 pt-3">
-      <div className=" row  justify-content-center pt-3">
+    <div className="WelcomeHome container-fluid bg-dark  pb-5 pt-5">
+      <div className=" row  justify-content-center pt-5">
         <p
-          className="text-uppercase text-warning text-center pt-5 fw-semibold mb-0"
-          style={{ fontSize: "1rem" }}
+          className="TopHeading text-uppercase text-warning text-center pt-5 fw-semibold mb-0"
         >
           application mantainance and support
         </p>
-        <p className="text-center fs-2 col-11 text-light fw-semibold" >
-          Top class application mantainace <span className="px-2">and</span> support services for
+        <p className="text-center fs-2 col-12 text-light fw-semibold" >
+          Top class application mantainace and support services for
           error-free, hight performing applications
         </p>
       </div>
       <div className="text-center pb-5">
-        <Button style={{ backgroundColor: 'rgb(245 164 3)' }} className="fw-semibold px-3 border-0 text-dark">
+        <Button  className="Schdule fw-semibold px-3 border-0 text-dark">
           Schdule a call
         </Button>
       </div>

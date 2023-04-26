@@ -1,5 +1,5 @@
 .RajendraPhoto{
-    background-image: url('./assets/Rajendra.png');
+    background-image: url('./assets/prakashSir.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -9,7 +9,7 @@
 }   
 
 .JitendraPhoto{
-    background-image: url('./assets/Jitendra.png');
+    background-image: url('./assets/santoshSir.png');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -19,7 +19,7 @@
 }
 
 .NirmalPhoto{
-    background-image: url('./assets/Nirmal.png');
+    background-image: url('./assets/manish-balodiaSir.jpeg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -29,7 +29,7 @@
 }
 
 .RahulPhoto{
-    background-image: url('./assets/Rahul.png');
+    background-image: url('./assets/sahib-khanSir.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

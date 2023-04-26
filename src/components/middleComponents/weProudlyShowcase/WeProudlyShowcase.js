@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 import Carousel from 'react-bootstrap/Carousel';
 const WeProudlyShowcase = () => {
     return (
-        <div className='container-fluid py-5'>
+        <div className='container-fluid py-5'style={{fontFamily:'Poppins'}}>
             <div className="container ">
 
 

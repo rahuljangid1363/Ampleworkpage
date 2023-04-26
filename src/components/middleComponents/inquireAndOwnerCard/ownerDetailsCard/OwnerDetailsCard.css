@@ -1,0 +1,12 @@
+.heading{
+    /* color: 'rgb(245 164 3)',fontFamily:'Impact', fontSize: '2.5rem', letterSpacing: '2px' */
+    color: rgb(245, 164, 3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    
+}
+.about{
+    color: whitesmoke;
+    font-size: .9rem;
+}

@@ -4,7 +4,7 @@ import './TrustedSkilledDevelopers.css'
 
 const TrustedSkilledDevelopers = () => {
     return (
-        <div className='container-fluid py-5' style={{backgroundColor:'rgb(243,243,245)'}}>
+        <div className='container-fluid py-5' style={{backgroundColor:'rgb(243,243,245)',fontFamily:'Poppins'}}>
             <div className="container">
                 <div className="row text-center">
                     <h4>Trusted and Skilled Developer</h4>

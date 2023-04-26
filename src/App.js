@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import AllRoutes from "./routes/AllRoutes";
-// import { SubCom1 } from "./components";
+// import AllRoutes from "./routes/AllRoutes";
 import DefaultLayout from "./layout/DefaultLayout";
 // const loading = (
 //   <div className="pt-3 text-center">
@@ -22,22 +21,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        {AllRoutes.map((route, key) => {
-
-
-          return (
-            route.element && (
-              <Route
-                key={key}
-                path={route.path}
-                name={route.name}
-                element={route.element}
-              />
-            )
-          );
-        })}
         <Route exact path="/404" name="Page 404" element={<Page404 />} />
-        {/* <Route exact path="/subcom1" name="Page 404" element={<SubCom1 />} /> */}
         <Route exact path="/500" name="Page 500" element={<Page500 />} />
         <Route path="*" name="Home" element={<DefaultLayout />} />
       </Routes>

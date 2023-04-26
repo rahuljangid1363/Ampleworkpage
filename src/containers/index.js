@@ -7,7 +7,8 @@ import CaseStudies from "./caseStudies/CaseStudies";
 import Blog from "./blog/Blog";
 import ContactUs from "./contactUs/ContactUs";
 import InquireNow from "./inquireNow/InquireNow";
-import { NavbarAndWelcomePage } from "../components";
+import Screen1 from "./screen1/Screen1";
+import Screen2 from "./screen2/Screen2";
 export {
   Home,
   WhoWeAre,
@@ -18,5 +19,6 @@ export {
   Blog,
   ContactUs,
   InquireNow,
-  NavbarAndWelcomePage,
+  Screen1,
+  Screen2,
 };

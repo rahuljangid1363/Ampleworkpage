@@ -51,7 +51,7 @@ const FrequentlyQuestion = () => {
                     </div>
                     <div className="col-md-6" style={{ width: '28rem' }}>
                     <Accordion>
-                            <Accordion.Item eventKey="0" className='border-0 shadow mb-3 rounded'>
+                            <Accordion.Item eventKey="4" className='border-0 shadow mb-3 rounded'>
                                 <Accordion.Header><span className='fw-semibold'>How skilled are your dedicated developers?</span></Accordion.Header>
                                 <Accordion.Body>
                                     At Amplework, we feature a team of highly
@@ -60,7 +60,7 @@ const FrequentlyQuestion = () => {
                                     development solutions.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="1" className='border-0 shadow mb-3 rounded'>
+                            <Accordion.Item eventKey="5" className='border-0 shadow mb-3 rounded'>
                                 <Accordion.Header><span className='fw-semibold'>How skilled are your dedicated developers?</span></Accordion.Header>
                                 <Accordion.Body>
                                     At Amplework, we feature a team of highly
@@ -69,7 +69,7 @@ const FrequentlyQuestion = () => {
                                     development solutions.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="2" className='border-0 shadow mb-3 rounded'>
+                            <Accordion.Item eventKey="6" className='border-0 shadow mb-3 rounded'>
                                 <Accordion.Header><span className='fw-semibold'>How skilled are your dedicated developers?</span></Accordion.Header>
                                 <Accordion.Body>
                                     At Amplework, we feature a team of highly
@@ -78,7 +78,7 @@ const FrequentlyQuestion = () => {
                                     development solutions.
                                 </Accordion.Body>
                             </Accordion.Item>
-                            <Accordion.Item eventKey="3" className='border-0 shadow mb-3 rounded'>
+                            <Accordion.Item eventKey="7" className='border-0 shadow mb-3 rounded'>
                                 <Accordion.Header><span className='fw-semibold'>How skilled are your dedicated developers?</span></Accordion.Header>
                                 <Accordion.Body>
                                     At Amplework, we feature a team of highly

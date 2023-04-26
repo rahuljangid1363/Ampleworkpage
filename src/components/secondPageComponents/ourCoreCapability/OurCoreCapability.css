@@ -1,0 +1,28 @@
+.heading{
+    font-size: 0.8rem;
+    font-family: 'Poppins';
+    color: black;
+}
+.cards{
+    background-color: white; 
+    height: 14rem;
+}
+.cards:hover{
+    background-color: blue;
+    color: white;
+}
+.cards :hover .heading{
+    color: white;
+    font-size: 1.2rem;
+}
+.cards :hover .image{
+    display: none;
+}
+.bg{
+    background-image: url('./asset/bg.svg');
+background-position: right;
+    background-repeat: no-repeat;
+    background-repeat: contain;
+    background-position:right;
+top: 6rem;
+}

@@ -1,12 +1,15 @@
 import React from 'react'
-import { NavbarAndWelcomePage } from '../../components'
+import { NavbarComp } from '../../components';
+// import { NavbarAndWelcomePage } from '../../components'
 
 const WhoWeAre = (props) => {
-  const {textColor,bgImage}=props
+  const {bgImage}=props
   console.log('______',bgImage);
   return (
     <div>
-    <NavbarAndWelcomePage tC={textColor} bgImage={bgImage} />
+    {/* <NavbarAndWelcomePage  bgImage={bgImage} /> */}
+    <NavbarComp/>
+    <h1>who we are page</h1>
     </div>
   )
 }

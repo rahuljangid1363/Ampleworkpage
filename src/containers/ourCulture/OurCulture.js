@@ -1,11 +1,13 @@
 import React from 'react'
-import { NavbarAndWelcomePage } from '../../components'
+import { NavbarComp } from '../../components'
+// import { NavbarAndWelcomePage } from '../../components'
 
-const OurCulture = (props) => {
-  const{bgImage}=props
+const OurCulture = () => {
   return (
     <div>
-    <NavbarAndWelcomePage bgImage={bgImage} />
+    {/* <NavbarAndWelcomePage bgImage={bgImage} /> */}
+    <NavbarComp/>
+    <h1>Our culture page</h1>
     </div>
   )
 }

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="63.01" height="63.01" viewBox="0 0 63.01 63.01">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <path id="path1623" d="M0-682.665H63.01v63.01H0Z" transform="translate(0 682.665)"/>
+    </clipPath>
+  </defs>
+  <g id="g1617" transform="translate(0 682.665)">
+    <g id="g1619" transform="translate(0 -682.665)">
+      <g id="g1621" class="cls-1">
+        <g id="g1627" transform="translate(12.307 12.307)">
+          <path id="path1629" class="cls-2" d="M-188.8-377.6A19.22,19.22,0,0,1-208-396.8,19.22,19.22,0,0,1-188.8-416a19.22,19.22,0,0,1,19.2,19.2A19.22,19.22,0,0,1-188.8-377.6Z" transform="translate(207.999 415.999)"/>
+        </g>
+        <g id="g1627-2" data-name="g1627" transform="translate(1.846 1.847)">
+          <path id="path1629-2" data-name="path1629" class="cls-2" d="M-178.341-356.681A29.692,29.692,0,0,1-208-386.34,29.692,29.692,0,0,1-178.341-416a29.692,29.692,0,0,1,29.659,29.659A29.692,29.692,0,0,1-178.341-356.681Z" transform="translate(207.999 415.999)"/>
+        </g>
+        <g id="g1631" transform="translate(23.383 23.383)">
+          <path id="path1633" class="cls-2" d="M-79.877-159.755A8.132,8.132,0,0,1-88-167.877,8.132,8.132,0,0,1-79.877-176a8.132,8.132,0,0,1,8.122,8.122A8.132,8.132,0,0,1-79.877-159.755Z" transform="translate(88 176)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

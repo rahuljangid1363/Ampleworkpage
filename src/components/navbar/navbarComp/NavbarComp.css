@@ -12,3 +12,8 @@
 li:hover{
 color: rgb(245, 164, 3);
 }
+.Navbar{
+    position: absolute;
+    background-color: transparent;
+    /* background-color: red; */
+}

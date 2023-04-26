@@ -1,11 +1,31 @@
-.ZoomCard{
+.ZoomCard {
     transition: transform 0.8s;
 }
 
 .ZoomCard:hover {
     transform: scale(1.12);
     border: none;
-    background-color: rgb(3,45,226);
+    background-color: rgb(3, 45, 226);
     color: white;
-  }
-  
+}
+
+.hoverShow {
+    display: none;
+}
+
+.ZoomCard:hover .hoverShow {
+    display: block;
+}
+
+.ZoomCard:hover .defaultShow {
+    display: none;
+}
+
+.paragraph {
+    font-size: 12px;
+    line-height: 19px;
+}
+
+.cardImage{
+    height: 5rem;
+}

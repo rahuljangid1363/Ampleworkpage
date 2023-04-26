@@ -4,7 +4,7 @@ import OwnerDetailsCard from './ownerDetailsCard/OwnerDetailsCard'
 
 const InquireAndOwnerCard = () => {
     return (
-        <div className='container-fluid pt-5' style={{backgroundColor:'rgb( 243 246 255)'}}>
+        <div className='container-fluid pt-5' style={{backgroundColor:'rgb( 243 246 255)',fontFamily:'Poppins'}}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6">

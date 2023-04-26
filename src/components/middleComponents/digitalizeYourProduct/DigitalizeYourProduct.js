@@ -5,7 +5,7 @@ import FoldableSmartPhone from './assets/Foldable-Smart-Phone-Mobile-App-Develop
 import MobileDevApps from './assets/Mobile-Devops-Development.png'
 const DigitalizeYourProduct = () => {
     return (
-        <div className='container-fluid py-5'>
+        <div className='container-fluid py-5' style={{fontFamily:'Poppins'}}>
             <div className="container">
                 <h4 className='text-center py-4 fw-bold'>Digitalize Your Product Idea - Learn More About MVP</h4>
                 <div className="row">

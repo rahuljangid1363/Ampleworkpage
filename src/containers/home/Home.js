@@ -1,6 +1,6 @@
 import React from "react";
-import { ApplicationService, NavbarComp, WelcomeHome } from "../../components";
-import HomeNavAndWelcome from "./homeNavAndWelcome/HomeNavAndWelcome";
+import {  NavbarComp } from "../../components";
+// import HomeNavAndWelcome from "./homeNavAndWelcome/HomeNavAndWelcome";
 
 
 const Home = (props) => {
@@ -9,12 +9,12 @@ const Home = (props) => {
     {/* <NavbarAndWelcomePage bgImage={bgImage} /> */}
 
     {/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX  HOME PAGE  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */}
-    <HomeNavAndWelcome />
+    {/* <HomeNavAndWelcome /> */}
     <div className="container-fluid bg-secondary">
       {/* <NavbarComp /> */}
       <h1>Home</h1>
-      <ApplicationService />
-      <WelcomeHome />
+      {/* <ApplicationService /> */}
+      {/* <WelcomeHome /> */}
     </div>
   </>
   );

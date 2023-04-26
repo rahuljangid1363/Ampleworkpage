@@ -1,11 +1,13 @@
 import React from 'react'
-import { NavbarAndWelcomePage } from '../../components'
+import { NavbarComp } from '../../components'
+// import { NavbarAndWelcomePage, NavbarComp } from '../../components'
 
-const ContactUs = (props) => {
-  const {bgImage}=props
+const ContactUs = () => {
   return (
     <div>
-   <NavbarAndWelcomePage bgImage={bgImage}/>
+      {/* <div className='bg-dark'><NavbarComp /></div> */}
+      <NavbarComp/>
+      <h1>Contact us page</h1>
     </div>
   )
 }

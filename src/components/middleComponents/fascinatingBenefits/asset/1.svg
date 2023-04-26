@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="54" height="54.898" viewBox="0 0 54 54.898">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #032de2;
+      }
+    </style>
+  </defs>
+  <g id="_x31_3_x2C__App_x2C__coding_x2C__development_x2C__mobile_x2C__code" transform="translate(-9.889 -10)">
+    <g id="XMLID_15_" transform="translate(10 10)">
+      <g id="XMLID_16_" transform="translate(0 0)">
+        <g id="XMLID_41_" transform="translate(10.083)">
+          <path id="XMLID_42_" class="cls-1" d="M128.352,64.9H105.259A5.265,5.265,0,0,1,100,59.639V15.259A5.265,5.265,0,0,1,105.259,10h23.092a5.265,5.265,0,0,1,5.259,5.259V59.639A5.265,5.265,0,0,1,128.352,64.9ZM105.259,12.241a3.022,3.022,0,0,0-3.019,3.019V59.639a3.022,3.022,0,0,0,3.019,3.019h23.092a3.022,3.022,0,0,0,3.019-3.019V15.259a3.022,3.022,0,0,0-3.019-3.019Z" transform="translate(-100 -10)"/>
+        </g>
+        <g id="XMLID_39_" transform="translate(10.083 6.722)">
+          <path id="XMLID_40_" class="cls-1" d="M132.491,72.241H101.12a1.12,1.12,0,0,1,0-2.241h31.37a1.12,1.12,0,1,1,0,2.241Z" transform="translate(-100 -70)"/>
+        </g>
+        <g id="XMLID_37_" transform="translate(10.083 45.935)">
+          <path id="XMLID_38_" class="cls-1" d="M132.491,422.241H101.12a1.12,1.12,0,1,1,0-2.241h31.37a1.12,1.12,0,1,1,0,2.241Z" transform="translate(-100 -420)"/>
+        </g>
+        <g id="XMLID_35_" transform="translate(14.565 12.324)">
+          <path id="XMLID_36_" class="cls-1" d="M143.361,126.722a1.117,1.117,0,0,1-.792-.328l-2.241-2.241a1.121,1.121,0,0,1,0-1.585l2.241-2.241a1.12,1.12,0,0,1,1.585,1.585l-1.449,1.449,1.449,1.449a1.12,1.12,0,0,1-.792,1.913Z" transform="translate(-140 -119.999)"/>
+        </g>
+        <g id="XMLID_33_" transform="translate(26.889 12.324)">
+          <path id="XMLID_34_" class="cls-1" d="M251.12,126.721a1.12,1.12,0,0,1-.792-1.913l1.448-1.448-1.449-1.449a1.12,1.12,0,0,1,1.585-1.585l2.241,2.241a1.121,1.121,0,0,1,0,1.585l-2.241,2.241A1.117,1.117,0,0,1,251.12,126.721Z" transform="translate(-249.999 -119.999)"/>
+        </g>
+        <g id="XMLID_31_" transform="translate(20.167 11.203)">
+          <path id="XMLID_32_" class="cls-1" d="M191.118,118.961a1.121,1.121,0,0,1-1-1.622l3.361-6.722a1.12,1.12,0,1,1,2,1l-3.361,6.722a1.121,1.121,0,0,1-1,.62Z" transform="translate(-189.998 -109.997)"/>
+        </g>
+        <g id="XMLID_29_" transform="translate(15.685 24.648)">
+          <path id="XMLID_30_" class="cls-1" d="M164.565,232.241H151.12a1.12,1.12,0,0,1,0-2.241h13.444a1.12,1.12,0,0,1,0,2.241Z" transform="translate(-150 -230)"/>
+        </g>
+        <g id="XMLID_27_" transform="translate(15.685 29.13)">
+          <path id="XMLID_28_" class="cls-1" d="M164.565,272.241H151.12a1.12,1.12,0,0,1,0-2.241h13.444a1.12,1.12,0,0,1,0,2.241Z" transform="translate(-150 -270)"/>
+        </g>
+        <g id="XMLID_25_" transform="translate(15.685 33.611)">
+          <path id="XMLID_26_" class="cls-1" d="M171.287,312.241H151.12a1.12,1.12,0,1,1,0-2.241h20.167a1.12,1.12,0,1,1,0,2.241Z" transform="translate(-150 -310)"/>
+        </g>
+        <g id="XMLID_23_" transform="translate(15.685 38.093)">
+          <path id="XMLID_24_" class="cls-1" d="M171.287,352.241H151.12a1.12,1.12,0,0,1,0-2.241h20.167a1.12,1.12,0,0,1,0,2.241Z" transform="translate(-150 -350)"/>
+        </g>
+        <ellipse id="XMLID_22_" class="cls-1" cx="2" cy="1.5" rx="2" ry="1.5" transform="translate(49.889 5.449)"/>
+        <circle id="XMLID_21_" class="cls-1" cx="2" cy="2" r="2" transform="translate(1.889 41.449)"/>
+        <circle id="XMLID_20_" class="cls-1" cx="1" cy="1" r="1" transform="translate(-0.111 20.449)"/>
+        <circle id="XMLID_19_" class="cls-1" cx="1" cy="1" r="1" transform="translate(47.889 21.449)"/>
+        <ellipse id="XMLID_18_" class="cls-1" cx="1" cy="0.5" rx="1" ry="0.5" transform="translate(5.889 8.449)"/>
+        <ellipse id="XMLID_17_" class="cls-1" cx="1.5" cy="0.5" rx="1.5" ry="0.5" transform="translate(48.889 45.449)"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -2,8 +2,8 @@ import SubCom from "./SubCom1";
 import Footer from "./footer/Footer";
 import WelcomeHome from "./navbar/welcomeHome/WelcomeHome";
 import NavbarComp from "./navbar/navbarComp/NavbarComp";
-import NavbarAndWelcomePage from "./navbar/NavbarAndWelcomePage";
-import { ApplicationService } from "./middleComponents";
+// import NavbarAndWelcomePage from "./navbar/NavbarAndWelcomePage";
+// import { ApplicationService } from "./middleComponents";
 import ExperienceUnparalleled from "./middleComponents/experienceUnparalled/ExperienceUnparalleled";
 import ZoomingComponent from "./middleComponents/zoomingCom/ZoomingComponent";
 import YourDedicatedSupporter from "./middleComponents/yourDedicatedSupporter/YourDedicatedSupporter";
@@ -21,13 +21,15 @@ import WeProudlyShowcase from "./middleComponents/weProudlyShowcase/WeProudlySho
 import PortfolioBanner from "./middleComponents/portfolioBanner/PortfolioBanner";
 import DigitalizeYourProduct from "./middleComponents/digitalizeYourProduct/DigitalizeYourProduct";
 import InquireAndOwnerCard from "./middleComponents/inquireAndOwnerCard/InquireAndOwnerCard";
+
 export {
+
   SubCom,
   WelcomeHome,
   NavbarComp,
   Footer,
-  NavbarAndWelcomePage,
-  ApplicationService,
+  // NavbarAndWelcomePage,
+  // ApplicationService,
   YourDedicatedSupporter,
   ExperienceUnparalleled,
   ZoomingComponent,

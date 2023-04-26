@@ -1,14 +1,38 @@
-.cards{
-    border: 5px solid rgb(238,238,238);
-    border-style:dashed;
+.outerCard {
+    border: 3px solid rgb(238, 238, 238);
+    border-style: dashed;
+    letter-spacing: 1px;
+    font-family:'Poppins';
 }
 
-.cards:hover{
-    border: 5px solid rgb(6,21,114);
-    border-style:dashed;
-    
+.innerCard2 {
+    display: none;
 }
-.innerCard:hover{
-    background-color: rgb(6,21,114);
-    color: white;
+
+.outerCard:hover {
+    border: 3px solid rgb(6, 21, 114);
+    border-style: dashed;
+}
+
+.outerCard:hover .innerCard1 {
+    display: none;
+}
+
+.outerCard:hover .innerCard2 {
+    display: block;
+    background-color: rgb(6 21 114);
+}
+
+.arrow {
+    display: none;
+    height: 1px;
+
+}
+
+.outerCard:hover .arrow {
+    position: relative;
+    left: 0.7rem;
+    top: 2.1rem;
+    display: block;
+
 }
